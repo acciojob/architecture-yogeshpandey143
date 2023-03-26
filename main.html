@@ -1,16 +1,49 @@
 <!DOCTYPE html>
-
 <html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+  <head>
+    <title>Architectural Information</title>
+    <style>
+      body {
+        width: 1100px;
+        margin: auto;
+      }
+      .imageContainer {
+        margin-bottom: 20px;
+      }
+      table {
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+      table td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+      }
+      table td:first-child,
+      table td:last-child {
+        width: 200px;
+      }
+      table td:nth-child(2) {
+        width: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="imageContainer">
+      <img src="image.jpg" alt="Architectural Information" />
+    </div>
+    <table>
+      <tr>
+        <td><img src="image1.jpg" width="200" alt="Image 1" /></td>
+        <td><img src="image2.jpg" width="600" alt="Image 2" /></td>
+        <td><img src="image3.jpg" width="200" alt="Image 3" /></td>
+      </tr>
+      <tr>
+        <td><img src="image4.jpg" width="200" alt="Image 4" /></td>
+        <td><img src="image5.jpg" width="600" alt="Image 5" /></td>
+        <td><img src="image6.jpg" width="200" alt="Image 6" /></td>
+      </tr>
+    </table>
+  </body>
 </html>
+
